@@ -1,0 +1,15 @@
+{"instruction":"Какой ценник на подключение NAS в офисе?","output":{"intent":"price_request","item_type":"service","item":"подключение NAS","brand":null,"quantity":null,"location":"офис","deadline":null}}
+{"instruction":"Во сколько выйдут три коврика для мыши Razer?","output":{"intent":"price_request","item_type":"product","item":"коврик для мыши","brand":"Razer","quantity":3,"location":null,"deadline":null}}
+{"instruction":"Сколько возьмёте за настройку резервного копирования до четверга?","output":{"intent":"price_request","item_type":"service","item":"настройка резервного копирования","brand":null,"quantity":null,"location":null,"deadline":"до четверга"}}
+{"instruction":"Подскажите стоимость двух док-станций Dell.","output":{"intent":"price_request","item_type":"product","item":"док-станция","brand":"Dell","quantity":2,"location":null,"deadline":null}}
+{"instruction":"Нужно подключить два ИБП в серверной.","output":{"intent":"service_order","item_type":"service","item":"подключение ИБП","brand":null,"quantity":2,"location":"серверная","deadline":null}}
+{"instruction":"Запишите на настройку электронной подписи в бухгалтерии.","output":{"intent":"service_order","item_type":"service","item":"настройка электронной подписи","brand":null,"quantity":null,"location":"бухгалтерия","deadline":null}}
+{"instruction":"Требуется установить три IP-телефона до вторника.","output":{"intent":"service_order","item_type":"service","item":"установка IP-телефона","brand":null,"quantity":3,"location":null,"deadline":"до вторника"}}
+{"instruction":"Настройте удалённый доступ на ноутбуке директора.","output":{"intent":"service_order","item_type":"service","item":"настройка удалённого доступа","brand":null,"quantity":null,"location":"кабинет директора","deadline":null}}
+{"instruction":"Найдутся три графических планшета Wacom?","output":{"intent":"availability_request","item_type":"product","item":"графический планшет","brand":"Wacom","quantity":3,"location":null,"deadline":null}}
+{"instruction":"Есть в наличии две карты захвата Elgato?","output":{"intent":"availability_request","item_type":"product","item":"карта захвата","brand":"Elgato","quantity":2,"location":null,"deadline":null}}
+{"instruction":"Остались беспроводные адаптеры ASUS USB-AX56?","output":{"intent":"availability_request","item_type":"product","item":"Wi-Fi адаптер USB-AX56","brand":"ASUS","quantity":null,"location":null,"deadline":null}}
+{"instruction":"Есть один USB-C кабель Anker на складе?","output":{"intent":"availability_request","item_type":"product","item":"кабель USB-C","brand":"Anker","quantity":1,"location":"склад","deadline":null}}
+{"instruction":"Что означает синий экран с ошибкой?","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}
+{"instruction":"Нужны и два SSD, и три монитора — всё есть?","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}
+{"instruction":"Вы работаете по выходным?","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}

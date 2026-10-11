@@ -1,0 +1,15 @@
+{"instruction":"Во сколько обойдётся настройка почтового клиента на двух ноутбуках?","output":{"intent":"price_request","item_type":"service","item":"настройка почтового клиента","brand":null,"quantity":2,"location":null,"deadline":null}}
+{"instruction":"Сколько стоит один сетевой фильтр APC?","output":{"intent":"price_request","item_type":"product","item":"сетевой фильтр","brand":"APC","quantity":1,"location":null,"deadline":null}}
+{"instruction":"Почём установка видеоконференцсвязи в переговорной?","output":{"intent":"price_request","item_type":"service","item":"установка видеоконференцсвязи","brand":null,"quantity":null,"location":"переговорная","deadline":null}}
+{"instruction":"Сколько будет стоить четыре флешки SanDisk на 64 ГБ?","output":{"intent":"price_request","item_type":"product","item":"USB-флешка 64 ГБ","brand":"SanDisk","quantity":4,"location":null,"deadline":null}}
+{"instruction":"Нужно подключить проектор в актовом зале до пятницы.","output":{"intent":"service_order","item_type":"service","item":"подключение проектора","brand":null,"quantity":null,"location":"актовый зал","deadline":"до пятницы"}}
+{"instruction":"Заказываю установку VPN на три рабочих ноутбука.","output":{"intent":"service_order","item_type":"service","item":"установка VPN","brand":null,"quantity":3,"location":null,"deadline":null}}
+{"instruction":"Настройте сетевую папку в отделе продаж.","output":{"intent":"service_order","item_type":"service","item":"настройка сетевой папки","brand":null,"quantity":null,"location":"отдел продаж","deadline":null}}
+{"instruction":"Прошу перенести данные на два новых компьютера завтра.","output":{"intent":"service_order","item_type":"service","item":"перенос данных","brand":null,"quantity":2,"location":null,"deadline":"завтра"}}
+{"instruction":"Есть два внешних HDD WD по 2 ТБ?","output":{"intent":"availability_request","item_type":"product","item":"внешний HDD 2 ТБ","brand":"WD","quantity":2,"location":null,"deadline":null}}
+{"instruction":"Уточните наличие одного микрофона Fifine.","output":{"intent":"availability_request","item_type":"product","item":"микрофон","brand":"Fifine","quantity":1,"location":null,"deadline":null}}
+{"instruction":"Остались переходники USB-C на HDMI Baseus?","output":{"intent":"availability_request","item_type":"product","item":"переходник USB-C — HDMI","brand":"Baseus","quantity":null,"location":null,"deadline":null}}
+{"instruction":"Есть четыре патч-корда категории 6?","output":{"intent":"availability_request","item_type":"product","item":"патч-корд Cat 6","brand":null,"quantity":4,"location":null,"deadline":null}}
+{"instruction":"Как проверить скорость оперативной памяти?","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}
+{"instruction":"Можно вернуть товар без чека?","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}
+{"instruction":"Привет! Подскажите ваш адрес.","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}
