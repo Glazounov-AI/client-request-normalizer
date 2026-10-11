@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Hugging Face and model artifacts
+.cache/
+hf_cache/
+checkpoints/
+outputs/
+adapters/
+*.safetensors
+
+# Temporary files
+*.log
