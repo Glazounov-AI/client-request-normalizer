@@ -1,0 +1,12 @@
+{"instruction":"Сколько стоит установить Windows на два ноутбука?","output":{"intent":"price_request","item_type":"service","item":"установка Windows","brand":null,"quantity":2,"location":null,"deadline":null}}
+{"instruction":"Есть три SSD Samsung по 1 ТБ?","output":{"intent":"availability_request","item_type":"product","item":"SSD 1 ТБ","brand":"Samsung","quantity":3,"location":null,"deadline":null}}
+{"instruction":"Нужно настроить вайфай в офисе до пятницы.","output":{"intent":"service_order","item_type":"service","item":"настройка Wi-Fi","brand":null,"quantity":null,"location":"офис","deadline":"до пятницы"}}
+{"instruction":"Почём оперативка Kingston на 16 гигов?","output":{"intent":"price_request","item_type":"product","item":"оперативная память 16 ГБ","brand":"Kingston","quantity":null,"location":null,"deadline":null}}
+{"instruction":"Запишите на чистку системного блока завтра.","output":{"intent":"service_order","item_type":"service","item":"чистка системного блока","brand":null,"quantity":null,"location":null,"deadline":"завтра"}}
+{"instruction":"Есть в наличии мониторы LG?","output":{"intent":"availability_request","item_type":"product","item":"монитор","brand":"LG","quantity":null,"location":null,"deadline":null}}
+{"instruction":"Сколько возьмёте за настройку двух роутеров MikroTik на складе?","output":{"intent":"price_request","item_type":"service","item":"настройка роутера","brand":"MikroTik","quantity":2,"location":"склад","deadline":null}}
+{"instruction":"Нужно заменить SSD в трёх офисных компьютерах на следующей неделе.","output":{"intent":"service_order","item_type":"service","item":"замена SSD","brand":null,"quantity":3,"location":"офис","deadline":"на следующей неделе"}}
+{"instruction":"У вас есть пять мышек Logitech?","output":{"intent":"availability_request","item_type":"product","item":"компьютерная мышь","brand":"Logitech","quantity":5,"location":null,"deadline":null}}
+{"instruction":"Какая цена на лазерный принтер Brother?","output":{"intent":"price_request","item_type":"product","item":"лазерный принтер","brand":"Brother","quantity":null,"location":null,"deadline":null}}
+{"instruction":"Добрый день! Как вы работаете в праздники?","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}
+{"instruction":"Нужна помощь с компьютером, пока не знаю, что сломалось.","output":{"intent":"unknown","item_type":null,"item":null,"brand":null,"quantity":null,"location":null,"deadline":null}}
