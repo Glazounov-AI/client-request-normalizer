@@ -1,5 +1,6 @@
 import argparse
 import json
+from peft import PeftModel
 from pathlib import Path
 
 import torch
@@ -24,10 +25,16 @@ deadline сохраняй в исходной формулировке.
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=3)
+    parser.add_argument("--adapter", type=str, default=None)
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="results/baseline_v1.jsonl",
+    )
     args = parser.parse_args()
 
     dataset = Path("data/test.jsonl")
-    output = Path("results/baseline_v1.jsonl")
+    output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
 
     tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
@@ -36,6 +43,13 @@ def main():
         dtype=torch.float16,
         device_map="auto",
     )
+    if args.adapter:
+        model = PeftModel.from_pretrained(
+            model,
+            args.adapter,
+            is_trainable=False,
+        )
+        print(f"LoRA adapter loaded: {args.adapter}")
     model.eval()
 
     records = [

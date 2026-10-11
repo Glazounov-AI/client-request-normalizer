@@ -1,0 +1,256 @@
+{
+  "total": 15,
+  "json_valid": 15,
+  "schema_valid": 11,
+  "intent_correct": 14,
+  "fields_correct": 90,
+  "fields_total": 105,
+  "exact_match": 7,
+  "json_validity": 1.0,
+  "schema_validity": 0.7333,
+  "intent_accuracy": 0.9333,
+  "field_accuracy": 0.8571,
+  "exact_match_rate": 0.4667,
+  "details": [
+    {
+      "index": 1,
+      "instruction": "Какой ценник на подключение NAS в офисе?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 7,
+      "exact_match": true
+    },
+    {
+      "index": 2,
+      "instruction": "Во сколько выйдут три коврика для мыши Razer?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 6,
+      "exact_match": false
+    },
+    {
+      "index": 3,
+      "instruction": "Сколько возьмёте за настройку резервного копирования до четверга?",
+      "json_valid": true,
+      "schema_valid": false,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "deadline"
+      ],
+      "field_score": 6,
+      "exact_match": false
+    },
+    {
+      "index": 4,
+      "instruction": "Подскажите стоимость двух док-станций Dell.",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 7,
+      "exact_match": true
+    },
+    {
+      "index": 5,
+      "instruction": "Нужно подключить два ИБП в серверной.",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 7,
+      "exact_match": true
+    },
+    {
+      "index": 6,
+      "instruction": "Запишите на настройку электронной подписи в бухгалтерии.",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "brand",
+        "quantity",
+        "deadline"
+      ],
+      "field_score": 5,
+      "exact_match": false
+    },
+    {
+      "index": 7,
+      "instruction": "Требуется установить три IP-телефона до вторника.",
+      "json_valid": true,
+      "schema_valid": false,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "deadline"
+      ],
+      "field_score": 6,
+      "exact_match": false
+    },
+    {
+      "index": 8,
+      "instruction": "Настройте удалённый доступ на ноутбуке директора.",
+      "json_valid": true,
+      "schema_valid": false,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "brand",
+        "quantity",
+        "deadline"
+      ],
+      "field_score": 5,
+      "exact_match": false
+    },
+    {
+      "index": 9,
+      "instruction": "Найдутся три графических планшета Wacom?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 7,
+      "exact_match": true
+    },
+    {
+      "index": 10,
+      "instruction": "Есть в наличии две карты захвата Elgato?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 7,
+      "exact_match": true
+    },
+    {
+      "index": 11,
+      "instruction": "Остались беспроводные адаптеры ASUS USB-AX56?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "brand",
+        "location",
+        "deadline"
+      ],
+      "field_score": 5,
+      "exact_match": false
+    },
+    {
+      "index": 12,
+      "instruction": "Есть один USB-C кабель Anker на складе?",
+      "json_valid": true,
+      "schema_valid": false,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "brand",
+        "quantity",
+        "location"
+      ],
+      "field_score": 5,
+      "exact_match": false
+    },
+    {
+      "index": 13,
+      "instruction": "Что означает синий экран с ошибкой?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 7,
+      "exact_match": true
+    },
+    {
+      "index": 14,
+      "instruction": "Нужны и два SSD, и три монитора — всё есть?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "brand",
+        "location",
+        "deadline"
+      ],
+      "field_score": 3,
+      "exact_match": false
+    },
+    {
+      "index": 15,
+      "instruction": "Вы работаете по выходным?",
+      "json_valid": true,
+      "schema_valid": true,
+      "matched_fields": [
+        "intent",
+        "item_type",
+        "item",
+        "brand",
+        "quantity",
+        "location",
+        "deadline"
+      ],
+      "field_score": 7,
+      "exact_match": true
+    }
+  ]
+}
